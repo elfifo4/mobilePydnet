@@ -19,12 +19,15 @@ limitations under the License.
 
 package unibo.cvlab.pydnet;
 
+import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Color;
-import android.util.Log;
 
 import java.nio.FloatBuffer;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
+
+import timber.log.Timber;
 
 public class ColorMapper {
 
@@ -35,10 +38,20 @@ public class ColorMapper {
     private int[] output;
     private boolean isPrepared = false;
 
-    public ColorMapper(float scaleFactor, boolean applyColorMap){
+    public ColorMapper(float scaleFactor, boolean applyColorMap, Context context) {
         this.scaleFactor = scaleFactor;
         this.applyColorMap = applyColorMap;
-        this.colorMap = Utils.getPlasma();
+
+        TypedArray colors = context.getResources().obtainTypedArray(R.array.color_map);
+        this.colorMap = new ArrayList<>();
+        for (int i = 0; i < colors.length(); i++) {
+            this.colorMap.add(colors.getString(i));
+        }
+        colors.recycle();
+
+//        this.colorMap = Utils.getPlasma();
+        Timber.d("this.colorMap:\n%s", this.colorMap);
+
     }
 
 
@@ -53,22 +66,23 @@ public class ColorMapper {
 
         @Override
         public void run() {
-            for(int i = start; i < end; i++){
+            for (int i = start; i < end; i++) {
                 float prediction = predictions.get(i);
                 if (applyColorMap) {
-                    int colorIndex =  (int)(prediction * scaleFactor);
+                    int colorIndex = (int) (prediction * scaleFactor);
                     colorIndex = Math.min(Math.max(colorIndex, 0), colorMap.size() - 1);
                     output[i] = Color.parseColor(colorMap.get(colorIndex));
                 } else
-                    output[i] =  (int) (prediction * scaleFactor);
+                    output[i] = (int) (prediction * scaleFactor);
             }
         }
     }
 
-    public void prepare(Utils.Resolution resolution){
-        this.output = new int[resolution.getHeight()*resolution.getWidth()*4];
+    public void prepare(Utils.Resolution resolution) {
+        this.output = new int[resolution.getHeight() * resolution.getWidth() * 4];
         isPrepared = true;
     }
+
     public int[] applyColorMap(FloatBuffer inference, int numberThread) {
         if (!isPrepared) {
             throw new RuntimeException("ColorMapper is not prepared.");
@@ -84,7 +98,7 @@ public class ColorMapper {
         Thread[] pool = new Thread[numberThread];
 
         for (int index = 0; index < numberThread; index++) {
-            int current_start = index*length;
+            int current_start = index * length;
             int current_end = current_start + length;
             current_end = Math.min(current_end, inferenceLength);
             pool[index] = new Thread(new Runner(current_start, current_end));
@@ -94,8 +108,7 @@ public class ColorMapper {
             for (Thread thread : pool)
                 thread.join();
             return output;
-        }
-        catch (InterruptedException e){
+        } catch (InterruptedException e) {
 
             return new int[inferenceLength];
         }

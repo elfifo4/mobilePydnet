@@ -3,4 +3,520 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="color001">#F0F921</color>
+    <color name="color002">#F0F724</color>
+    <color name="color003">#F1F525</color>
+    <color name="color004">#F1F426</color>
+    <color name="color005">#F2F227</color>
+    <color name="color006">#F3F027</color>
+    <color name="color007">#F3EE27</color>
+    <color name="color008">#F4ED27</color>
+    <color name="color009">#F5EB27</color>
+    <color name="color010">#F5E926</color>
+    <color name="color011">#F6E826</color>
+    <color name="color012">#F6E626</color>
+    <color name="color013">#F7E425</color>
+    <color name="color014">#F7E225</color>
+    <color name="color015">#F8E125</color>
+    <color name="color016">#F8DF25</color>
+    <color name="color017">#F9DD25</color>
+    <color name="color018">#F9DC24</color>
+    <color name="color019">#FADA24</color>
+    <color name="color020">#FAD824</color>
+    <color name="color021">#FBD724</color>
+    <color name="color022">#FBD524</color>
+    <color name="color023">#FBD324</color>
+    <color name="color024">#FCD225</color>
+    <color name="color025">#FCD025</color>
+    <color name="color026">#FCCE25</color>
+    <color name="color027">#FCCD25</color>
+    <color name="color028">#FDCB26</color>
+    <color name="color029">#FDCA26</color>
+    <color name="color031">#FDC827</color>
+    <color name="color032">#FDC627</color>
+    <color name="color033">#FDC527</color>
+    <color name="color034">#FDC328</color>
+    <color name="color035">#FDC229</color>
+    <color name="color036">#FEC029</color>
+    <color name="color037">#FEBE2A</color>
+    <color name="color038">#FEBD2A</color>
+    <color name="color039">#FEBB2B</color>
+    <color name="color040">#FEBA2C</color>
+    <color name="color041">#FEB82C</color>
+    <color name="color042">#FEB72D</color>
+    <color name="color043">#FDB52E</color>
+    <color name="color044">#FDB42F</color>
+    <color name="color045">#FDB22F</color>
+    <color name="color046">#FDB130</color>
+    <color name="color047">#FDAF31</color>
+    <color name="color048">#FDAE32</color>
+    <color name="color049">#FDAC33</color>
+    <color name="color050">#FDAB33</color>
+    <color name="color051">#FCA934</color>
+    <color name="color052">#FCA835</color>
+    <color name="color053">#FCA636</color>
+    <color name="color054">#FCA537</color>
+    <color name="color055">#FCA338</color>
+    <color name="color056">#FBA238</color>
+    <color name="color057">#FBA139</color>
+    <color name="color058">#FB9F3A</color>
+    <color name="color059">#FA9E3B</color>
+    <color name="color060">#FA9C3C</color>
+    <color name="color061">#FA9B3D</color>
+    <color name="color062">#F99A3E</color>
+    <color name="color063">#F9983E</color>
+    <color name="color064">#F9973F</color>
+    <color name="color065">#F89540</color>
+    <color name="color066">#F89441</color>
+    <color name="color067">#F79342</color>
+    <color name="color068">#F79143</color>
+    <color name="color069">#F79044</color>
+    <color name="color070">#F68F44</color>
+    <color name="color071">#F68D45</color>
+    <color name="color072">#F58C46</color>
+    <color name="color073">#F58B47</color>
+    <color name="color074">#F48948</color>
+    <color name="color075">#F48849</color>
+    <color name="color076">#F3874A</color>
+    <color name="color077">#F3854B</color>
+    <color name="color078">#F2844B</color>
+    <color name="color079">#F1834C</color>
+    <color name="color080">#F1814D</color>
+    <color name="color081">#F0804E</color>
+    <color name="color082">#F07F4F</color>
+    <color name="color083">#EF7E50</color>
+    <color name="color084">#EF7C51</color>
+    <color name="color085">#EE7B51</color>
+    <color name="color086">#ED7A52</color>
+    <color name="color087">#ED7953</color>
+    <color name="color088">#EC7754</color>
+    <color name="color089">#EB7655</color>
+    <color name="color090">#EB7556</color>
+    <color name="color091">#EA7457</color>
+    <color name="color092">#E97257</color>
+    <color name="color093">#E97158</color>
+    <color name="color094">#E87059</color>
+    <color name="color095">#E76F5A</color>
+    <color name="color096">#E76E5B</color>
+    <color name="color097">#E66C5C</color>
+    <color name="color098">#E56B5D</color>
+    <color name="color099">#E56A5D</color>
+    <color name="color100">#E4695E</color>
+    <color name="color101">#E3685F</color>
+    <color name="color102">#E26660</color>
+    <color name="color103">#E26561</color>
+    <color name="color104">#E16462</color>
+    <color name="color105">#E06363</color>
+    <color name="color106">#DF6263</color>
+    <color name="color107">#DE6164</color>
+    <color name="color108">#DE5F65</color>
+    <color name="color109">#DD5E66</color>
+    <color name="color110">#DC5D67</color>
+    <color name="color111">#DB5C68</color>
+    <color name="color112">#DA5B69</color>
+    <color name="color113">#DA5A6A</color>
+    <color name="color114">#D9586A</color>
+    <color name="color115">#D8576B</color>
+    <color name="color116">#D7566C</color>
+    <color name="color117">#D6556D</color>
+    <color name="color118">#D5546E</color>
+    <color name="color119">#D5536F</color>
+    <color name="color120">#D45270</color>
+    <color name="color121">#D35171</color>
+    <color name="color122">#D24F71</color>
+    <color name="color123">#D14E72</color>
+    <color name="color124">#D04D73</color>
+    <color name="color125">#CF4C74</color>
+    <color name="color126">#CE4B75</color>
+    <color name="color127">#CD4A76</color>
+    <color name="color128">#CC4977</color>
+    <color name="color129">#CC4778</color>
+    <color name="color131">#CB4679</color>
+    <color name="color132">#CA457A</color>
+    <color name="color133">#C9447A</color>
+    <color name="color134">#C8437B</color>
+    <color name="color135">#C7427C</color>
+    <color name="color136">#C6417D</color>
+    <color name="color137">#C5407E</color>
+    <color name="color138">#C43E7F</color>
+    <color name="color139">#C33D80</color>
+    <color name="color140">#C23C81</color>
+    <color name="color141">#C13B82</color>
+    <color name="color142">#C03A83</color>
+    <color name="color143">#BF3984</color>
+    <color name="color144">#BE3885</color>
+    <color name="color145">#BD3786</color>
+    <color name="color146">#BC3587</color>
+    <color name="color147">#BB3488</color>
+    <color name="color148">#BA3388</color>
+    <color name="color149">#B83289</color>
+    <color name="color150">#B7318A</color>
+    <color name="color151">#B6308B</color>
+    <color name="color152">#B52F8C</color>
+    <color name="color153">#B42E8D</color>
+    <color name="color154">#B32C8E</color>
+    <color name="color155">#B22B8F</color>
+    <color name="color156">#B12A90</color>
+    <color name="color157">#B02991</color>
+    <color name="color158">#AE2892</color>
+    <color name="color159">#AD2793</color>
+    <color name="color160">#AC2694</color>
+    <color name="color161">#AB2494</color>
+    <color name="color162">#AA2395</color>
+    <color name="color163">#A82296</color>
+    <color name="color164">#A72197</color>
+    <color name="color165">#A62098</color>
+    <color name="color166">#A51F99</color>
+    <color name="color167">#A31E9A</color>
+    <color name="color168">#A21D9A</color>
+    <color name="color169">#A11B9B</color>
+    <color name="color170">#A01A9C</color>
+    <color name="color171">#9E199D</color>
+    <color name="color172">#9D189D</color>
+    <color name="color173">#9C179E</color>
+    <color name="color174">#9A169F</color>
+    <color name="color175">#99159F</color>
+    <color name="color176">#9814A0</color>
+    <color name="color177">#9613A1</color>
+    <color name="color178">#9511A1</color>
+    <color name="color179">#9410A2</color>
+    <color name="color180">#920FA3</color>
+    <color name="color181">#910EA3</color>
+    <color name="color182">#8F0DA4</color>
+    <color name="color183">#8E0CA4</color>
+    <color name="color184">#8D0BA5</color>
+    <color name="color185">#8B0AA5</color>
+    <color name="color186">#8A09A5</color>
+    <color name="color187">#8808A6</color>
+    <color name="color188">#8707A6</color>
+    <color name="color189">#8606A6</color>
+    <color name="color190">#8405A7</color>
+    <color name="color191">#8305A7</color>
+    <color name="color192">#8104A7</color>
+    <color name="color193">#8004A8</color>
+    <color name="color194">#7E03A8</color>
+    <color name="color195">#7D03A8</color>
+    <color name="color196">#7B02A8</color>
+    <color name="color197">#7A02A8</color>
+    <color name="color198">#7801A8</color>
+    <color name="color199">#7701A8</color>
+    <color name="color200">#7501A8</color>
+    <color name="color201">#7401A8</color>
+    <color name="color202">#7201A8</color>
+    <color name="color203">#7100A8</color>
+    <color name="color204">#6F00A8</color>
+    <color name="color205">#6E00A8</color>
+    <color name="color206">#6C00A8</color>
+    <color name="color207">#6A00A8</color>
+    <color name="color208">#6900A8</color>
+    <color name="color209">#6700A8</color>
+    <color name="color210">#6600A7</color>
+    <color name="color211">#6400A7</color>
+    <color name="color212">#6300A7</color>
+    <color name="color213">#6100A7</color>
+    <color name="color214">#6001A6</color>
+    <color name="color215">#5E01A6</color>
+    <color name="color216">#5C01A6</color>
+    <color name="color217">#5B01A5</color>
+    <color name="color218">#5901A5</color>
+    <color name="color219">#5801A4</color>
+    <color name="color220">#5601A4</color>
+    <color name="color221">#5502A4</color>
+    <color name="color222">#5302A3</color>
+    <color name="color223">#5102A3</color>
+    <color name="color224">#5002A2</color>
+    <color name="color225">#4E02A2</color>
+    <color name="color226">#4C02A1</color>
+    <color name="color227">#4B03A1</color>
+    <color name="color228">#4903A0</color>
+    <color name="color229">#48039F</color>
+    <color name="color231">#46039F</color>
+    <color name="color232">#44039E</color>
+    <color name="color233">#43039E</color>
+    <color name="color234">#41049D</color>
+    <color name="color235">#3F049C</color>
+    <color name="color236">#3E049C</color>
+    <color name="color237">#3C049B</color>
+    <color name="color238">#3A049A</color>
+    <color name="color239">#38049A</color>
+    <color name="color240">#370499</color>
+    <color name="color241">#350498</color>
+    <color name="color242">#330597</color>
+    <color name="color243">#310597</color>
+    <color name="color244">#2F0596</color>
+    <color name="color245">#2E0595</color>
+    <color name="color246">#2C0594</color>
+    <color name="color247">#2A0593</color>
+    <color name="color248">#280592</color>
+    <color name="color249">#260591</color>
+    <color name="color250">#240691</color>
+    <color name="color251">#220690</color>
+    <color name="color252">#20068F</color>
+    <color name="color253">#1D068E</color>
+    <color name="color254">#1B068D</color>
+    <color name="color255">#19068C</color>
+    <color name="color256">#16078A</color>
+    <color name="color257">#130789</color>
+    <color name="color258">#100788</color>
+    <color name="color259">#0D0887</color>
+
+    <array name="color_map">
+        <item>@color/color001</item>
+        <item>@color/color002</item>
+        <item>@color/color003</item>
+        <item>@color/color004</item>
+        <item>@color/color005</item>
+        <item>@color/color006</item>
+        <item>@color/color007</item>
+        <item>@color/color008</item>
+        <item>@color/color009</item>
+        <item>@color/color010</item>
+        <item>@color/color011</item>
+        <item>@color/color012</item>
+        <item>@color/color013</item>
+        <item>@color/color014</item>
+        <item>@color/color015</item>
+        <item>@color/color016</item>
+        <item>@color/color017</item>
+        <item>@color/color018</item>
+        <item>@color/color019</item>
+        <item>@color/color020</item>
+        <item>@color/color021</item>
+        <item>@color/color022</item>
+        <item>@color/color023</item>
+        <item>@color/color024</item>
+        <item>@color/color025</item>
+        <item>@color/color026</item>
+        <item>@color/color027</item>
+        <item>@color/color028</item>
+        <item>@color/color029</item>
+        <item>@color/color031</item>
+        <item>@color/color032</item>
+        <item>@color/color033</item>
+        <item>@color/color034</item>
+        <item>@color/color035</item>
+        <item>@color/color036</item>
+        <item>@color/color037</item>
+        <item>@color/color038</item>
+        <item>@color/color039</item>
+        <item>@color/color040</item>
+        <item>@color/color041</item>
+        <item>@color/color042</item>
+        <item>@color/color043</item>
+        <item>@color/color044</item>
+        <item>@color/color045</item>
+        <item>@color/color046</item>
+        <item>@color/color047</item>
+        <item>@color/color048</item>
+        <item>@color/color049</item>
+        <item>@color/color050</item>
+        <item>@color/color051</item>
+        <item>@color/color052</item>
+        <item>@color/color053</item>
+        <item>@color/color054</item>
+        <item>@color/color055</item>
+        <item>@color/color056</item>
+        <item>@color/color057</item>
+        <item>@color/color058</item>
+        <item>@color/color059</item>
+        <item>@color/color060</item>
+        <item>@color/color061</item>
+        <item>@color/color062</item>
+        <item>@color/color063</item>
+        <item>@color/color064</item>
+        <item>@color/color065</item>
+        <item>@color/color066</item>
+        <item>@color/color067</item>
+        <item>@color/color068</item>
+        <item>@color/color069</item>
+        <item>@color/color070</item>
+        <item>@color/color071</item>
+        <item>@color/color072</item>
+        <item>@color/color073</item>
+        <item>@color/color074</item>
+        <item>@color/color075</item>
+        <item>@color/color076</item>
+        <item>@color/color077</item>
+        <item>@color/color078</item>
+        <item>@color/color079</item>
+        <item>@color/color080</item>
+        <item>@color/color081</item>
+        <item>@color/color082</item>
+        <item>@color/color083</item>
+        <item>@color/color084</item>
+        <item>@color/color085</item>
+        <item>@color/color086</item>
+        <item>@color/color087</item>
+        <item>@color/color088</item>
+        <item>@color/color089</item>
+        <item>@color/color090</item>
+        <item>@color/color091</item>
+        <item>@color/color092</item>
+        <item>@color/color093</item>
+        <item>@color/color094</item>
+        <item>@color/color095</item>
+        <item>@color/color096</item>
+        <item>@color/color097</item>
+        <item>@color/color098</item>
+        <item>@color/color099</item>
+        <item>@color/color100</item>
+        <item>@color/color101</item>
+        <item>@color/color102</item>
+        <item>@color/color103</item>
+        <item>@color/color104</item>
+        <item>@color/color105</item>
+        <item>@color/color106</item>
+        <item>@color/color107</item>
+        <item>@color/color108</item>
+        <item>@color/color109</item>
+        <item>@color/color110</item>
+        <item>@color/color111</item>
+        <item>@color/color112</item>
+        <item>@color/color113</item>
+        <item>@color/color114</item>
+        <item>@color/color115</item>
+        <item>@color/color116</item>
+        <item>@color/color117</item>
+        <item>@color/color118</item>
+        <item>@color/color119</item>
+        <item>@color/color120</item>
+        <item>@color/color121</item>
+        <item>@color/color122</item>
+        <item>@color/color123</item>
+        <item>@color/color124</item>
+        <item>@color/color125</item>
+        <item>@color/color126</item>
+        <item>@color/color127</item>
+        <item>@color/color128</item>
+        <item>@color/color129</item>
+        <item>@color/color131</item>
+        <item>@color/color132</item>
+        <item>@color/color133</item>
+        <item>@color/color134</item>
+        <item>@color/color135</item>
+        <item>@color/color136</item>
+        <item>@color/color137</item>
+        <item>@color/color138</item>
+        <item>@color/color139</item>
+        <item>@color/color140</item>
+        <item>@color/color141</item>
+        <item>@color/color142</item>
+        <item>@color/color143</item>
+        <item>@color/color144</item>
+        <item>@color/color145</item>
+        <item>@color/color146</item>
+        <item>@color/color147</item>
+        <item>@color/color148</item>
+        <item>@color/color149</item>
+        <item>@color/color150</item>
+        <item>@color/color151</item>
+        <item>@color/color152</item>
+        <item>@color/color153</item>
+        <item>@color/color154</item>
+        <item>@color/color155</item>
+        <item>@color/color156</item>
+        <item>@color/color157</item>
+        <item>@color/color158</item>
+        <item>@color/color159</item>
+        <item>@color/color160</item>
+        <item>@color/color161</item>
+        <item>@color/color162</item>
+        <item>@color/color163</item>
+        <item>@color/color164</item>
+        <item>@color/color165</item>
+        <item>@color/color166</item>
+        <item>@color/color167</item>
+        <item>@color/color168</item>
+        <item>@color/color169</item>
+        <item>@color/color170</item>
+        <item>@color/color171</item>
+        <item>@color/color172</item>
+        <item>@color/color173</item>
+        <item>@color/color174</item>
+        <item>@color/color175</item>
+        <item>@color/color176</item>
+        <item>@color/color177</item>
+        <item>@color/color178</item>
+        <item>@color/color179</item>
+        <item>@color/color180</item>
+        <item>@color/color181</item>
+        <item>@color/color182</item>
+        <item>@color/color183</item>
+        <item>@color/color184</item>
+        <item>@color/color185</item>
+        <item>@color/color186</item>
+        <item>@color/color187</item>
+        <item>@color/color188</item>
+        <item>@color/color189</item>
+        <item>@color/color190</item>
+        <item>@color/color191</item>
+        <item>@color/color192</item>
+        <item>@color/color193</item>
+        <item>@color/color194</item>
+        <item>@color/color195</item>
+        <item>@color/color196</item>
+        <item>@color/color197</item>
+        <item>@color/color198</item>
+        <item>@color/color199</item>
+        <item>@color/color200</item>
+        <item>@color/color201</item>
+        <item>@color/color202</item>
+        <item>@color/color203</item>
+        <item>@color/color204</item>
+        <item>@color/color205</item>
+        <item>@color/color206</item>
+        <item>@color/color207</item>
+        <item>@color/color208</item>
+        <item>@color/color209</item>
+        <item>@color/color210</item>
+        <item>@color/color211</item>
+        <item>@color/color212</item>
+        <item>@color/color213</item>
+        <item>@color/color214</item>
+        <item>@color/color215</item>
+        <item>@color/color216</item>
+        <item>@color/color217</item>
+        <item>@color/color218</item>
+        <item>@color/color219</item>
+        <item>@color/color220</item>
+        <item>@color/color221</item>
+        <item>@color/color222</item>
+        <item>@color/color223</item>
+        <item>@color/color224</item>
+        <item>@color/color225</item>
+        <item>@color/color226</item>
+        <item>@color/color227</item>
+        <item>@color/color228</item>
+        <item>@color/color229</item>
+        <item>@color/color231</item>
+        <item>@color/color232</item>
+        <item>@color/color233</item>
+        <item>@color/color234</item>
+        <item>@color/color235</item>
+        <item>@color/color236</item>
+        <item>@color/color237</item>
+        <item>@color/color238</item>
+        <item>@color/color239</item>
+        <item>@color/color240</item>
+        <item>@color/color241</item>
+        <item>@color/color242</item>
+        <item>@color/color243</item>
+        <item>@color/color244</item>
+        <item>@color/color245</item>
+        <item>@color/color246</item>
+        <item>@color/color247</item>
+        <item>@color/color248</item>
+        <item>@color/color249</item>
+        <item>@color/color250</item>
+        <item>@color/color251</item>
+        <item>@color/color252</item>
+        <item>@color/color253</item>
+        <item>@color/color254</item>
+        <item>@color/color255</item>
+        <item>@color/color256</item>
+        <item>@color/color257</item>
+        <item>@color/color258</item>
+        <item>@color/color259</item>
+    </array>
 </resources>

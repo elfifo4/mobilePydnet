@@ -23,6 +23,12 @@ android {
         noCompress "tflite"
         noCompress "lite"
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -37,4 +43,8 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-android:1.13.1'
     implementation 'org.tensorflow:tensorflow-lite:2.0.0'
     implementation 'org.tensorflow:tensorflow-lite-gpu:2.0.0'
+
+    implementation("com.jakewharton.timber:timber:4.7.1") {
+        exclude group: 'org.jetbrains'
+    }
 }
